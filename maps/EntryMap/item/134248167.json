@@ -1,0 +1,202 @@
+{
+    "local_variable": {
+        "1634004994": {
+            "variable_dict": {
+                "ROUND_AREA": {
+                    "\u62fe\u53d6\u8303\u56f4": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u62fe\u53d6\u8303\u56f4": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "1634004994": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ROUND_AREA", 
+                                        "\u62fe\u53d6\u8303\u56f4", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100023, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100031, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_ITEM_ENTITY"
+                                        }
+                                    ], 
+                                    "sub_type": "ITEM_ENTITY_POINT"
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        200.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "CREATE_CIR_AREA"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1634004994000002, 
+                    "enable": true
+                }, 
+                2137321475
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1634004994000001, 
+                    "enable": true, 
+                    "event_type": "ITEM_CREATE_EVENT"
+                }
+            ], 
+            "group_id": 134248167, 
+            "p_trigger_id": null, 
+            "trigger_id": 1634004994, 
+            "trigger_name": "\u6389\u843d\u521b\u5efa", 
+            "valid": true
+        }, 
+        "2137321475": {
+            "action": [
+                {
+                    "action_type": "ADD_SAVE_DATA_INT_VALUE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100230, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2137321475000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "REMOVE_ITEM", 
+                    "args_list": [
+                        {
+                            "arg_type": 100031, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_ITEM_ENTITY"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2137321475000003, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100044, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100023, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ROUND_AREA", 
+                                        "\u62fe\u53d6\u8303\u56f4", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "element_id": 2137321475000001, 
+                    "enable": true, 
+                    "event_type": "UNIT_REGION_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1634004994, 
+            "trigger_id": 2137321475, 
+            "trigger_name": "\u5b50\u89e6\u53d1\u5668", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                2137321475, 
+                "\u5b50\u89e6\u53d1\u5668"
+            ]
+        }, 
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1634004994, 
+                        "\u6389\u843d\u521b\u5efa"
+                    ]
+                }
+            ], 
+            "key": 134248167, 
+            "name": "134248167"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

@@ -1,0 +1,42 @@
+{
+    "action": [
+        {
+            "action_type": "UNIT_ADD_ITEM", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100032, 
+                    "args_list": [
+                        134247295
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1018089475000006, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [], 
+            "element_id": 1018089475000002, 
+            "enable": true, 
+            "event_type": "INIT_FINISHED"
+        }
+    ], 
+    "group_id": "H1ALT72vEe64eAD-deHnHp", 
+    "p_trigger_id": null, 
+    "trigger_id": 1018089475, 
+    "trigger_name": "\u7269\u54c1\u83b7\u5f97", 
+    "valid": true
+}

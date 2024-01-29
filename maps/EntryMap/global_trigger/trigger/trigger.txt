@@ -1,0 +1,120 @@
+{
+    "dir": [
+        {
+            "children": [
+                "H1ALT72vEe64eAD-deHnHp", 
+                "BRJbwL26Ee6DkgD-deHnHj", 
+                "0Pb9Hr2yEe6iMQD-deHnHp", 
+                "IP6ksL26Ee6IggD-deHnHo"
+            ], 
+            "key": "root_key", 
+            "name": "root", 
+            "parent": null, 
+            "type": "virtual_folder"
+        }, 
+        {
+            "children": [
+                1021706241, 
+                1018089475, 
+                635817988
+            ], 
+            "key": "H1ALT72vEe64eAD-deHnHp", 
+            "name": "GM", 
+            "parent": null, 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": [
+                609710098, 
+                1795883013, 
+                1909751827
+            ], 
+            "key": "BRJbwL26Ee6DkgD-deHnHj", 
+            "name": "\u6e38\u620f\u521d\u59cb\u5316", 
+            "parent": null, 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": [
+                71921666
+            ], 
+            "key": "0Pb9Hr2yEe6iMQD-deHnHp", 
+            "name": "\u6e38\u620f\u8fdb\u7a0b", 
+            "parent": null, 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": [
+                957399046, 
+                867500043
+            ], 
+            "key": "IP6ksL26Ee6IggD-deHnHo", 
+            "name": "\u6309\u94ae\u4e8b\u4ef6", 
+            "parent": null, 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": null, 
+            "key": 1021706241, 
+            "name": "\u8fdb\u5ea6\u6761\u6d4b\u8bd5", 
+            "parent": "H1ALT72vEe64eAD-deHnHp", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1018089475, 
+            "name": "\u7269\u54c1\u83b7\u5f97", 
+            "parent": "H1ALT72vEe64eAD-deHnHp", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 635817988, 
+            "name": "\u6280\u80fd\u5347\u7ea7", 
+            "parent": "H1ALT72vEe64eAD-deHnHp", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 609710098, 
+            "name": "\u521d\u59cb\u5316\u66f4\u65b0\u4e8b\u4ef6", 
+            "parent": "BRJbwL26Ee6DkgD-deHnHj", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1795883013, 
+            "name": "\u83dc\u5355\u754c\u9762\u751f\u6210", 
+            "parent": "BRJbwL26Ee6DkgD-deHnHj", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1909751827, 
+            "name": "\u884c\u4e3a\u521d\u59cb\u5316", 
+            "parent": "BRJbwL26Ee6DkgD-deHnHj", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 71921666, 
+            "name": "\u89d2\u8272\u5347\u7ea7", 
+            "parent": "0Pb9Hr2yEe6iMQD-deHnHp", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 957399046, 
+            "name": "\u70b9\u51fb\u5f00\u59cb\u6e38\u620f", 
+            "parent": "IP6ksL26Ee6IggD-deHnHo", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 867500043, 
+            "name": "\u6280\u80fd\u5347\u7ea7", 
+            "parent": "IP6ksL26Ee6IggD-deHnHo", 
+            "type": "trigger"
+        }
+    ]
+}

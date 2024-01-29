@@ -1,0 +1,154 @@
+{
+    "action": [
+        {
+            "action_type": "ADD_ABILITY_LEVEL", 
+            "args_list": [
+                {
+                    "arg_type": 100014, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100182, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100039, 
+                            "args_list": [
+                                134238410
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_ABILITY_BY_AID"
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 71921666000038, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "3f14c4f0-7f6f-4df3-8c60-dd1cde255da9"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 867500043000029, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CREATE_SFX_ON_POINT", 
+            "args_list": [
+                {
+                    "arg_type": 100066, 
+                    "args_list": [
+                        100468
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "UNIT_ENTITY_POINT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 867500043000057, 
+            "enable": true, 
+            "op_arg": [
+                null, 
+                null, 
+                null, 
+                null, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                false, 
+                false, 
+                false, 
+                false, 
+                false
+            ]
+        }, 
+        {
+            "action_type": "SOFT_RESUME_GAME", 
+            "args_list": [], 
+            "bp": false, 
+            "element_id": 867500043000026, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "skill_1_upgrade"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 867500043000002, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }
+    ], 
+    "group_id": "IP6ksL26Ee6IggD-deHnHo", 
+    "p_trigger_id": null, 
+    "trigger_id": 867500043, 
+    "trigger_name": "\u6280\u80fd\u5347\u7ea7", 
+    "valid": true
+}

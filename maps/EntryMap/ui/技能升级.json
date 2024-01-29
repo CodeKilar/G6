@@ -1,0 +1,231 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    640.0, 
+                    360.0, 
+                    640.0, 
+                    360.0
+                ]
+            }, 
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "upgrade_title", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            358.0, 
+                            788.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            48.3784, 
+                            94.0334
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u6280\u80fd\u5347\u7ea7", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "9ec348b2-9cb1-46bc-a2cf-b70edc1f25f4"
+                }, 
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            54.0, 
+                            17.0, 
+                            54.0, 
+                            17.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_1_name", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    190.7642, 
+                                    138.3731
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.7039, 
+                                    67.1714
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    135.0, 
+                                    39.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_name\n", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "303cf9ce-1383-4e13-bf00-47e0d4252708"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_1_desc", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    221.0, 
+                                    82.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    39.0459, 
+                                    39.8058
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    196.0, 
+                                    73.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_desc", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "af635b73-f206-4ee2-93d5-38aa8b673e17"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_1_level", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    385.0001, 
+                                    104.0001
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    68.0212, 
+                                    50.4855
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_level", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "cedb8931-a280-4341-91bd-9ef9456f6e3c"
+                        }
+                    ], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "skill_1_upgrade", 
+                            "sound_id": null, 
+                            "type": 30
+                        }
+                    ], 
+                    "image": 120505, 
+                    "name": "skill_1_icon", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            370.0, 
+                            596.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            71.1217
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            566.0, 
+                            206.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "ca4c89fd-f72b-4aa3-ae15-d2e1318e44a5", 
+                    "visible": false
+                }
+            ], 
+            "event_list": [], 
+            "image": 132975, 
+            "name": "upgrade_background", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    740.0, 
+                    838.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "cc8b6c4e-4d8c-4b43-a0b1-7ec0a8a6480f"
+        }
+    ], 
+    "name": "\u6280\u80fd\u5347\u7ea7", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "3f14c4f0-7f6f-4df3-8c60-dd1cde255da9", 
+    "visible": false, 
+    "zorder": 400
+}

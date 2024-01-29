@@ -1,0 +1,61 @@
+{
+    "dir": [
+        {
+            "children": [
+                1875570739, 
+                "k-yOwLG2Ee2YRwD-+E6xsS"
+            ], 
+            "key": "root_key", 
+            "name": "root", 
+            "parent": null, 
+            "type": "virtual_folder"
+        }, 
+        {
+            "children": null, 
+            "key": 1875570739, 
+            "name": "\u6e38\u620f\u521d\u59cb\u5316", 
+            "parent": null, 
+            "type": "trigger"
+        }, 
+        {
+            "children": [
+                786112514, 
+                734306311, 
+                333193219, 
+                1496309785
+            ], 
+            "key": "k-yOwLG2Ee2YRwD-+E6xsS", 
+            "name": "UI", 
+            "parent": null, 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": null, 
+            "key": 786112514, 
+            "name": "\u521d\u59cb\u5316\u66f4\u65b0\u4e8b\u4ef6", 
+            "parent": "k-yOwLG2Ee2YRwD-+E6xsS", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 734306311, 
+            "name": "\u521d\u59cb\u5316\u6570\u636e", 
+            "parent": "k-yOwLG2Ee2YRwD-+E6xsS", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 333193219, 
+            "name": "\u521d\u59cb\u5316\u4e3b\u8981\u4e8b\u4ef6\u5904\u7406", 
+            "parent": "k-yOwLG2Ee2YRwD-+E6xsS", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1496309785, 
+            "name": "\u521d\u59cb\u5316\u754c\u9762\u4e8b\u4ef6", 
+            "parent": "k-yOwLG2Ee2YRwD-+E6xsS", 
+            "type": "trigger"
+        }
+    ]
+}

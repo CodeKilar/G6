@@ -1,0 +1,66 @@
+[
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "\u89d2\u8272_\u5438\u8840\u9b3c", 
+   1
+  ]
+ }, 
+ {
+  "name": "\u5237\u602a\u533a\u57df", 
+  "key": "gV39ob3yEe6z-QD-deHnHm", 
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     10000, 
+     "\u5237\u602a\u533a\u57df_1", 
+     4096
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10006, 
+     "\u5237\u602a\u533a\u57df_2", 
+     4096
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10007, 
+     "\u5237\u602a\u533a\u57df_3", 
+     4096
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     10008, 
+     "\u5237\u602a\u533a\u57df_4", 
+     4096
+    ]
+   }
+  ], 
+  "btn_visible": false, 
+  "btn_lock": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   7, 
+   "\u96d5\u50cf", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }
+]

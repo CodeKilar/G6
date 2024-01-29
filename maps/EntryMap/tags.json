@@ -1,0 +1,25 @@
+{
+    "ability_all": [
+        "\u7269\u54c1\u6280\u80fd", 
+        "\u7279\u6b8a\u7269\u54c1", 
+        "\u53cd\u5f39", 
+        "system", 
+        "AOE", 
+        "\u5927\u62db"
+    ], 
+    "editor_item": [
+        "\u7269\u653b", 
+        "\u7269\u5438", 
+        "\u653b\u51fb"
+    ], 
+    "editor_unit": [
+        "\u6218\u58eb", 
+        "\u6cd5\u5e08", 
+        "\u8fd1\u6218", 
+        "\u7269\u6cd5\u53cc\u4fee", 
+        "\u7fa4\u63a7", 
+        "\u4e0a\u8def\u53d1\u80b2", 
+        "\u91ce\u533a\u53d1\u80b2", 
+        "soldiers"
+    ]
+}

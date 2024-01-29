@@ -1,0 +1,14 @@
+{
+    "archive_drop_config": {}, 
+    "archive_slots": {
+        "1": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": false, 
+            "key": 1, 
+            "name": "gold", 
+            "type": 2, 
+            "value": 0
+        }
+    }
+}

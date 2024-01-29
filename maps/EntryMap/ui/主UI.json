@@ -1,0 +1,396 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    26.0, 
+                    26.0, 
+                    26.0, 
+                    26.0
+                ]
+            }, 
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "kill_monster_num", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            114.373, 
+                            19.4999
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            265.9837, 
+                            49.9997
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "0", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "d8296e79-2aae-4aa8-a2d2-5e25c95d87d3"
+                }
+            ], 
+            "event_list": [], 
+            "image": 120576, 
+            "name": "kill_monster_icon", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1392.0, 
+                    980.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    72.5, 
+                    90.7407
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    43.0, 
+                    39.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "aaa77dd3-f7c5-4aac-83bb-47a6ecfbfde5"
+        }, 
+        {
+            "adapter_option": [
+                true, 
+                false, 
+                true, 
+                true, 
+                0.0, 
+                1036.0, 
+                0.0, 
+                0.0
+            ], 
+            "background_cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    100.0, 
+                    33.0, 
+                    100.0, 
+                    33.0
+                ]
+            }, 
+            "bg_image": 106424, 
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    17.0, 
+                    2.0, 
+                    17.0, 
+                    2.0
+                ]
+            }, 
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "level_text", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            960.0, 
+                            22.0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            94.0, 
+                            76.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u7b49\u7ea71", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "53fb4331-4512-4c18-bbaa-b3f6289cf7ed"
+                }
+            ], 
+            "color": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    120, 
+                    166, 
+                    255
+                ]
+            }, 
+            "event_list": [], 
+            "image": 106378, 
+            "name": "exp_bar", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    1058.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    97.963
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    44.0
+                ]
+            }, 
+            "type": 5, 
+            "uid": "72e9c2bb-a13e-4b28-a902-922f4854bdbb"
+        }, 
+        {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    48.0, 
+                    9.0, 
+                    48.0, 
+                    9.0
+                ]
+            }, 
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "game_time_text", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            90.8964, 
+                            78.6771
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            39.5202, 
+                            50.1128
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "00:00", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "8dd57338-2bf1-4ac4-82ba-0359c643a5a9"
+                }
+            ], 
+            "event_list": [], 
+            "image": 110827, 
+            "name": "game_time_icon", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    985.0, 
+                    980.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    51.3021, 
+                    90.7407
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    230.0, 
+                    157.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "cd773230-5ebe-4253-8814-a17daa70d210"
+        }, 
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "ccc5bd93-dbb5-40b0-9c0d-f98c0ff90e3a", 
+                            "ease_type": 0, 
+                            "name": "BackToHall_1", 
+                            "open_timeline": true, 
+                            "type": 5
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "click_exit", 
+                    "sound_id": null, 
+                    "type": 30
+                }
+            ], 
+            "name": "exit", 
+            "normal_picture": 108505, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1876.0, 
+                    1010.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    97.7083, 
+                    93.5185
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    70.5128, 
+                    55.0
+                ]
+            }, 
+            "type": 1, 
+            "uid": "ccc5bd93-dbb5-40b0-9c0d-f98c0ff90e3a"
+        }, 
+        {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    9.0, 
+                    9.0, 
+                    9.0, 
+                    9.0
+                ]
+            }, 
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "82c48ace-d110-4b75-bf24-a687b8409e5b", 
+                            "ease_type": 0, 
+                            "name": "Show_1", 
+                            "open_timeline": true, 
+                            "type": 2
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "event_click_setting", 
+                    "sound_id": null, 
+                    "type": 30
+                }
+            ], 
+            "image": 101186, 
+            "name": "btn_setting", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    25.5, 
+                    1013.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    1.3281, 
+                    93.7963
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    51.0, 
+                    48.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "477587d0-5e26-4643-b62f-08b4afc266f1"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "name": "panel_setting", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    923.0, 
+                    506.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    48.0729, 
+                    46.8519
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    165.0, 
+                    165.0
+                ]
+            }, 
+            "type": 27, 
+            "uid": "82c48ace-d110-4b75-bf24-a687b8409e5b", 
+            "visible": false
+        }
+    ], 
+    "name": "\u4e3bUI", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "panel_1", 
+    "visible": true, 
+    "zorder": 400
+}
