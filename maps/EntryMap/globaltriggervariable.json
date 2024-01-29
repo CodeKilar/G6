@@ -292,7 +292,8 @@
     "variable_dict": {
         "INTEGER": {
             "InputCacheNum": 0, 
-            "\u51fb\u6740\u602a\u7269\u6570\u91cf": 0
+            "\u51fb\u6740\u602a\u7269\u6570\u91cf": 0, 
+            "\u5f53\u5c40\u91d1\u5e01\u6570\u91cf": 0
         }, 
         "UNIT_ENTITY": {}, 
         "UNIT_NAME": {}
@@ -322,10 +323,18 @@
                 "\u51fb\u6740\u602a\u7269\u6570\u91cf", 
                 "\u51fb\u6740\u602a\u7269\u6570\u91cf"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5f53\u5c40\u91d1\u5e01\u6570\u91cf", 
+                "\u5f53\u5c40\u91d1\u5e01\u6570\u91cf"
+            ]
         }
     ], 
     "variable_length_dict": {
         "InputCacheNum": 0, 
-        "\u51fb\u6740\u602a\u7269\u6570\u91cf": 0
+        "\u51fb\u6740\u602a\u7269\u6570\u91cf": 0, 
+        "\u5f53\u5c40\u91d1\u5e01\u6570\u91cf": 0
     }
 }

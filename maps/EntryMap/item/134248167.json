@@ -2,12 +2,16 @@
     "local_variable": {
         "1634004994": {
             "variable_dict": {
+                "INTEGER": {
+                    "\u91d1\u5e01\u6dfb\u52a0\u6570\u91cf": 0
+                }, 
                 "ROUND_AREA": {
                     "\u62fe\u53d6\u8303\u56f4": 0
                 }
             }, 
             "variable_length_dict": {
-                "\u62fe\u53d6\u8303\u56f4": 0
+                "\u62fe\u53d6\u8303\u56f4": 0, 
+                "\u91d1\u5e01\u6dfb\u52a0\u6570\u91cf": 0
             }
         }
     }, 
@@ -82,6 +86,137 @@
         "2137321475": {
             "action": [
                 {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u91d1\u5e01\u6dfb\u52a0\u6570\u91cf", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2137321475000015, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u5f53\u5c40\u91d1\u5e01\u6570\u91cf"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u5f53\u5c40\u91d1\u5e01\u6570\u91cf"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "+"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u91d1\u5e01\u6dfb\u52a0\u6570\u91cf", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2137321475000009, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "1830fbe9-5ba5-42e7-9eaf-f559475361bd"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u5f53\u5c40\u91d1\u5e01\u6570\u91cf"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2137321475000033, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "ADD_SAVE_DATA_INT_VALUE", 
                     "args_list": [
                         {
@@ -101,9 +236,16 @@
                         {
                             "arg_type": 100002, 
                             "args_list": [
-                                1
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u91d1\u5e01\u6dfb\u52a0\u6570\u91cf", 
+                                        "local"
+                                    ]
+                                }
                             ], 
-                            "sub_type": 1
+                            "sub_type": 6
                         }
                     ], 
                     "bp": false, 
@@ -164,7 +306,7 @@
                     "event_type": "UNIT_REGION_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134248167, 
             "is_conf": true, 
             "p_trigger_id": 1634004994, 
             "trigger_id": 2137321475, 
