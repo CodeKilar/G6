@@ -1,0 +1,240 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    14.0, 
+                    40.0, 
+                    14.0, 
+                    40.0
+                ]
+            }, 
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "setting_title", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            168.5, 
+                            431.5001
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            57.9038, 
+                            89.709
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u9009\u9879", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "27d068af-afe2-445a-bc83-dee68926d0cb"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "f3da2048-b53f-4a1f-8f11-0f1c125a1de3", 
+                                    "ease_type": 0, 
+                                    "name": "BackToHall_3", 
+                                    "open_timeline": true, 
+                                    "type": 5
+                                }
+                            ], 
+                            "enabled": true, 
+                            "name": "btn_exit_game_1", 
+                            "sound_id": null, 
+                            "type": 30
+                        }
+                    ], 
+                    "name": "btn_exit_game", 
+                    "normal_picture": 133974, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u9000\u51fa\u6e38\u620f", 
+                            false
+                        ]
+                    }, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            145.5, 
+                            145.8532
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            30.3229
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "type": 1, 
+                    "uid": "f3da2048-b53f-4a1f-8f11-0f1c125a1de3"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "btn_back_to_game", 
+                            "sound_id": null, 
+                            "type": 30
+                        }
+                    ], 
+                    "name": "btn_back_to_game", 
+                    "normal_picture": 133974, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u8fd4\u56de\u6e38\u620f", 
+                            false
+                        ]
+                    }, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            145.0, 
+                            240.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            49.8282, 
+                            49.896
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "type": 1, 
+                    "uid": "d5b2717c-6d21-45d7-b4fc-f9db60f3196d"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [
+                                {
+                                    "anim_duration": 1.0, 
+                                    "anim_id": null, 
+                                    "anim_type": 0, 
+                                    "comp": "096cba20-f98b-4377-9239-93da9058974c", 
+                                    "ease_type": 0, 
+                                    "name": "Show_1", 
+                                    "open_timeline": true, 
+                                    "type": 2
+                                }
+                            ], 
+                            "enabled": true, 
+                            "name": "btn_setting_0", 
+                            "sound_id": null, 
+                            "type": 30
+                        }
+                    ], 
+                    "name": "btn_setting", 
+                    "normal_picture": 133974, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u9009\u9879", 
+                            false
+                        ]
+                    }, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            146.0, 
+                            337.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.1718, 
+                            70.0624
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "type": 1, 
+                    "uid": "a38b7400-0385-4c6c-bbca-37873c0f74cb"
+                }
+            ], 
+            "event_list": [], 
+            "image": 106224, 
+            "name": "setting_bg", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    291.0, 
+                    481.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "5cc8c7bd-cd0e-48e4-98ac-8820b44b09aa"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "name": "panel_setting", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    165.0, 
+                    165.0
+                ]
+            }, 
+            "type": 27, 
+            "uid": "096cba20-f98b-4377-9239-93da9058974c", 
+            "visible": false
+        }
+    ], 
+    "name": "ESC\u754c\u9762", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "4434af84-4a4e-4924-93fa-eb57e92d9af7", 
+    "visible": false, 
+    "zorder": 400
+}

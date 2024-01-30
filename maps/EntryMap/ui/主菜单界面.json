@@ -243,7 +243,7 @@
                         }
                     ], 
                     "enabled": true, 
-                    "name": "btn_exit_game", 
+                    "name": "btn_exit_game_0", 
                     "sound_id": null, 
                     "type": 30
                 }
