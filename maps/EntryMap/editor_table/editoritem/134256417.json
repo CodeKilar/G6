@@ -30,7 +30,7 @@
             0.5
         ]
     }, 
-    "body_size": 1.0, 
+    "body_size": 2.0, 
     "buy_res_list": {
         "__tuple__": true, 
         "items": []

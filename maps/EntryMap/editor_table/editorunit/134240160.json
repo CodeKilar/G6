@@ -97,12 +97,7 @@
     "dmg_reduction_grow": 0.0, 
     "dodge_rate": 0.0, 
     "dodge_rate_grow": 0.0, 
-    "drop_items_tuple": [
-        [
-            134248167, 
-            1.0
-        ]
-    ], 
+    "drop_items_tuple": [], 
     "dynamic_collision_r": 1.0, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 

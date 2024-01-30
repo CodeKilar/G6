@@ -1,0 +1,128 @@
+{
+    "local_variable": {
+        "1678082049": {
+            "variable_dict": {
+                "ITEM_NAME": {
+                    "\u6389\u843d\u7269\u54c1": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u6389\u843d\u7269\u54c1": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "1678082049": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "d16f5921bf6d11ee85da00ff75e1e71e"
+                        }, 
+                        {
+                            "arg_type": 100032, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ITEM_NAME", 
+                                        "\u6389\u843d\u7269\u54c1", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [
+                        0
+                    ], 
+                    "element_id": 1678082049000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CREATE_ITEM", 
+                    "args_list": [
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_UNIT_FROM_EVENT"
+                                }
+                            ], 
+                            "sub_type": "UNIT_ENTITY_POINT"
+                        }, 
+                        {
+                            "arg_type": 100032, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ITEM_NAME", 
+                                        "\u6389\u843d\u7269\u54c1", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1678082049000015, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1678082049000002, 
+                    "enable": true, 
+                    "event_type": "UNIT_DIE"
+                }
+            ], 
+            "group_id": 134240160, 
+            "p_trigger_id": null, 
+            "trigger_id": 1678082049, 
+            "trigger_name": "\u6b7b\u4ea1\u6389\u843d", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1678082049, 
+                        "\u6b7b\u4ea1\u6389\u843d"
+                    ]
+                }
+            ], 
+            "key": 134240160, 
+            "name": "134240160"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

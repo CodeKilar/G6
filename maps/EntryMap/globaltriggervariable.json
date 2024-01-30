@@ -63,6 +63,31 @@
                 "\u73a9\u5bb6": 0
             }
         }, 
+        "1069531158": {
+            "variable_dict": {
+                "INTEGER": {
+                    "\u968f\u673a\u503c": 0
+                }, 
+                "ITEM_ENTITY": {
+                    "\u968f\u673a\u6c60": 0
+                }, 
+                "ITEM_GROUP": {}, 
+                "ITEM_NAME": {
+                    "\u7269\u54c1\u7c7b\u578b\u7ec4": 0, 
+                    "\u968f\u673a\u7ed3\u679c": 0
+                }, 
+                "RANDOM_POOL": {
+                    "\u7269\u54c1\u6c60": null
+                }
+            }, 
+            "variable_length_dict": {
+                "\u7269\u54c1\u6c60": 0, 
+                "\u7269\u54c1\u7c7b\u578b\u7ec4": 10, 
+                "\u968f\u673a\u503c": 0, 
+                "\u968f\u673a\u6c60": 0, 
+                "\u968f\u673a\u7ed3\u679c": 0
+            }
+        }, 
         "1380126773": {
             "variable_dict": {
                 "INTEGER": {
