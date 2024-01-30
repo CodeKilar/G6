@@ -30,6 +30,35 @@
             "enable": true
         }, 
         {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "fea3c42a-a0e3-4441-8587-121fd64f522d"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 495222805000026, 
+            "enable": true
+        }, 
+        {
             "action_type": "SOFT_RESUME_GAME", 
             "args_list": [], 
             "bp": false, 
@@ -38,7 +67,49 @@
         }
     ], 
     "call_enabled": true, 
-    "condition": [], 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "4434af84-4a4e-4924-93fa-eb57e92d9af7"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_UI_COMP_VISIBLE"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 495222805000044, 
+            "enable": true
+        }
+    ], 
     "enabled": true, 
     "event": [
         {
@@ -54,6 +125,20 @@
             "element_id": 495222805000005, 
             "enable": true, 
             "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 495222805000037, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
         }
     ], 
     "group_id": "IP6ksL26Ee6IggD-deHnHo", 

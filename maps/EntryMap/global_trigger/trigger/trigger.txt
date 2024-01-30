@@ -27,8 +27,7 @@
             "children": [
                 609710098, 
                 1795883013, 
-                1909751827, 
-                209600532
+                1909751827
             ], 
             "key": "BRJbwL26Ee6DkgD-deHnHj", 
             "name": "\u6e38\u620f\u521d\u59cb\u5316", 
@@ -37,7 +36,8 @@
         }, 
         {
             "children": [
-                71921666
+                71921666, 
+                209600532
             ], 
             "key": "0Pb9Hr2yEe6iMQD-deHnHp", 
             "name": "\u6e38\u620f\u8fdb\u7a0b", 
@@ -99,15 +99,15 @@
         }, 
         {
             "children": null, 
-            "key": 209600532, 
-            "name": "ESC\u4e8b\u4ef6", 
-            "parent": "BRJbwL26Ee6DkgD-deHnHj", 
+            "key": 71921666, 
+            "name": "\u89d2\u8272\u5347\u7ea7", 
+            "parent": "0Pb9Hr2yEe6iMQD-deHnHp", 
             "type": "trigger"
         }, 
         {
             "children": null, 
-            "key": 71921666, 
-            "name": "\u89d2\u8272\u5347\u7ea7", 
+            "key": 209600532, 
+            "name": "ESC\u4e8b\u4ef6", 
             "parent": "0Pb9Hr2yEe6iMQD-deHnHp", 
             "type": "trigger"
         }, 
