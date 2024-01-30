@@ -48,14 +48,6 @@
   "btn_lock": false
  }, 
  {
-  "__tuple__": true, 
-  "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
   "name": "\u53ef\u7834\u574f\u573a\u666f\u4ef6", 
   "key": "xNF9z79wEe6ZSgD-deHnHj", 
   "group": [
@@ -102,5 +94,13 @@
   ], 
   "btn_visible": false, 
   "btn_lock": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
  }
 ]

@@ -21,6 +21,50 @@
             "bp": false, 
             "element_id": 1018089475000006, 
             "enable": true
+        }, 
+        {
+            "action_type": "UNIT_ADD_ITEM", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100032, 
+                    "args_list": [
+                        134233458
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1018089475000009, 
+            "enable": true
+        }, 
+        {
+            "action_type": "UNIT_ADD_ITEM", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100032, 
+                    "args_list": [
+                        134230617
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1018089475000021, 
+            "enable": true
         }
     ], 
     "call_enabled": true, 

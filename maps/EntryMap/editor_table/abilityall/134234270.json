@@ -1,22 +1,22 @@
 {
     "_custom_": true, 
-    "_ref_": 134277529, 
+    "_ref_": 134234270, 
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
-            "0.0"
+            "50"
         ]
     }, 
-    "ability_bw_point": 0.1, 
-    "ability_cast_point": 0.1, 
+    "ability_bw_point": 0.5, 
+    "ability_cast_point": 0.2, 
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "15.0"
+            "10"
         ]
     }, 
     "ability_cast_type": 2, 
-    "ability_channel_time": 0.62, 
+    "ability_channel_time": 0.0, 
     "ability_cost": {
         "__tuple__": true, 
         "items": [
@@ -26,13 +26,13 @@
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "50.0"
+            "5"
         ]
     }, 
     "ability_damage_range": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "0"
         ]
     }, 
     "ability_hp_cost": {
@@ -41,8 +41,8 @@
             "0"
         ]
     }, 
-    "ability_icon": 108140, 
-    "ability_max_level": 3, 
+    "ability_icon": 107365, 
+    "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -82,11 +82,14 @@
         "items": []
     }, 
     "build_rotate": 0, 
-    "building_attack_range_sfx": 0, 
+    "building_attack_range_sfx": 101492, 
+    "bw_ignore_ability_command": false, 
+    "bw_ignore_move_command": false, 
+    "bw_move_interrupt": true, 
     "camp_priority_enemy": 1, 
-    "camp_priority_friend": 0, 
-    "camp_priority_neutral": 0, 
-    "camp_priority_self": 0, 
+    "camp_priority_friend": 1, 
+    "camp_priority_neutral": 1, 
+    "camp_priority_self": 1, 
     "can_autocast_when_attack_target": true, 
     "can_bs_interrupt": false, 
     "can_cache": true, 
@@ -96,6 +99,9 @@
     "can_interrupt_others": false, 
     "can_prepare_interrupt": false, 
     "can_ps_interrupt": false, 
+    "cast_ignore_ability_command": true, 
+    "cast_ignore_move_command": true, 
+    "cast_move_interrupt": false, 
     "circle_radius": {
         "__tuple__": true, 
         "items": [
@@ -105,7 +111,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "0.0"
         ]
     }, 
     "collection_animation": "", 
@@ -116,6 +122,9 @@
         "items": []
     }, 
     "cost_hp_can_die": false, 
+    "csp_ignore_ability_command": false, 
+    "csp_ignore_move_command": false, 
+    "csp_move_interrupt": true, 
     "cst_sfx_list": {
         "__tuple__": true, 
         "items": []
@@ -124,7 +133,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "description": -1988204945, 
+    "description": 1277767520, 
     "end_sfx_list": {
         "__tuple__": true, 
         "items": []
@@ -157,84 +166,36 @@
     "is_charge_ability": false, 
     "is_immediate": true, 
     "is_meele": false, 
-    "key": 134238410, 
+    "key": 134234270, 
     "kv": {
-        "Damage": {
+        "\u62a4\u76fe\u6570\u91cf": {
             "annotation": "", 
             "desc": "", 
-            "etype": 2, 
-            "key": "Damage", 
+            "etype": 1, 
+            "key": "\u62a4\u76fe\u6570\u91cf", 
             "prop_cls": "PInt", 
             "remark": "", 
-            "type": 24, 
-            "value": [
-                "lambda unit: Fix32(85)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(40)+Fix32(0.6)*Fix32(unit.ability_source.api_get_attr_other('attack_phy'))", 
-                [
-                    [
-                        "level"
-                    ], 
-                    [
-                        "ability_source", 
-                        "ATTR_OTHER", 
-                        "attack_phy"
-                    ]
-                ], 
-                "lambda unit: Fix32(85)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(40)+Fix32(0.6)*Fix32(unit.ability_source.api_get_attr_other('attack_phy'))", 
-                {
-                    "ability.cur_ability.ability_level": {
-                        "is_cm": false
-                    }, 
-                    "unit.ability_source.ATTR_OTHER.attack_phy": {
-                        "is_cm": false
-                    }, 
-                    "unit.ability_source.ATTR_RESULT.attack_phy": {
-                        "is_cm": false
-                    }, 
-                    "unit.ability_target.ATTR_RESULT.attack_phy": {
-                        "is_cm": false
-                    }
-                }, 
-                [
-                    [
-                        "ability", 
-                        "cur_ability", 
-                        "ability_level"
-                    ], 
-                    [
-                        "unit", 
-                        "ability_source", 
-                        "ATTR_OTHER", 
-                        "attack_phy"
-                    ]
-                ]
-            ]
-        }, 
-        "shortdec": {
-            "annotation": "", 
-            "desc": "", 
-            "etype": 0, 
-            "key": "shortdec", 
-            "prop_cls": "PText", 
-            "remark": "", 
-            "type": 0, 
-            "value": "\u53d1\u5c04\u591a\u679a\u7bad\u77e2\uff0c\u5bf9\u547d\u4e2d\u7684\u5355\u4f4d\u9020\u6210\u4f24\u5bb3\u53ca\u51fb\u9000\u3002"
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 2, 
+            "value": 0
         }
     }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "name": -1713078222, 
+    "name": -1288731886, 
     "need_turn_to_target": false, 
     "pick_count": 1, 
-    "player_props_cost": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "player_props_cost": {}, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
     }, 
+    "prepare_ignore_ability_command": true, 
+    "prepare_ignore_move_command": true, 
+    "prepare_move_interrupt": false, 
     "ps_sfx_list": {
         "__tuple__": true, 
         "items": []
@@ -246,27 +207,36 @@
     "release_immediately_out_of_range": true, 
     "required_level": {
         "formula": "", 
-        "required_levels": [
-            6, 
-            11, 
-            16
-        ]
+        "required_levels": {
+            "__tuple__": true, 
+            "items": [
+                1, 
+                2, 
+                3, 
+                4, 
+                5
+            ]
+        }
     }, 
     "sector_angle": {
         "__tuple__": true, 
         "items": [
-            " 60"
+            "0"
         ]
     }, 
+    "sector_radian": 2, 
     "sector_radius": {
         "__tuple__": true, 
         "items": [
-            " (1500)/100"
+            "10"
         ]
     }, 
     "show_building_attack_range": false, 
     "sight_type": 0, 
-    "sound_event_list": [], 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "sp_count_down": false, 
     "sp_sfx_list": {
         "__tuple__": true, 
@@ -279,15 +249,13 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": [
-            "\u5927\u62db"
-        ]
+        "items": []
     }, 
     "target_attribute": 0, 
-    "type_priority_building": 0, 
+    "type_priority_building": 1, 
     "type_priority_creature": 1, 
-    "type_priority_destructible": 0, 
-    "type_priority_hero": 0, 
-    "type_priority_item": 0, 
-    "uid": "134238410"
+    "type_priority_destructible": 1, 
+    "type_priority_hero": 1, 
+    "type_priority_item": 1, 
+    "uid": "134234270"
 }

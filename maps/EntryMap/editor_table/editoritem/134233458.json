@@ -43,7 +43,8 @@
     "cur_charge": 0, 
     "cur_stack": 9999, 
     "delete_on_discard": false, 
-    "description": -1630092543, 
+    "desc": -1632693904, 
+    "description": -1632693904, 
     "disable_overlapping": false, 
     "discard_enable": false, 
     "discard_when_dead": false, 
@@ -61,10 +62,10 @@
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
     "hp_max": 100, 
-    "icon": 106520, 
+    "icon": 110546, 
     "init_stock": 0, 
     "item_billboard_type": 0, 
-    "key": 134247295, 
+    "key": 134233458, 
     "kv": {}, 
     "level": 1, 
     "material_alpha": 0, 
@@ -83,7 +84,7 @@
     "maximum_stacking": 9999, 
     "model": 207571, 
     "model_opacity": 1, 
-    "name": -1900860450, 
+    "name": -1162557775, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
@@ -105,9 +106,9 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "uid": "134247295", 
+    "uid": "134233458", 
     "use_base_tint_color": false, 
     "use_consume": 1, 
-    "use_fresnel": 0, 
-    "use_virtual_light": 0
+    "use_fresnel": false, 
+    "use_virtual_light": false
 }
