@@ -2,16 +2,35 @@
     "local_variable": {
         "167858188": {
             "variable_dict": {
-                "STRING": {
-                    "\u6280\u80fd\u7c7b\u578b": ""
+                "ABILITY_NAME": {
+                    "\u603b\u6280\u80fd": 0, 
+                    "\u6280\u80fd\u7c7b\u578b": 0
                 }, 
+                "INTEGER": {
+                    "i": 0, 
+                    "\u968f\u673a\u503c": 0
+                }, 
+                "ITEM_NAME": {
+                    "\u7269\u54c1\u7c7b\u578b\u7ec4": 0, 
+                    "\u968f\u673a\u7ed3\u679c": 0
+                }, 
+                "RANDOM_POOL": {
+                    "\u603b\u6280\u80fd\u968f\u673a\u6c60": null
+                }, 
+                "STRING": {}, 
                 "UNIT_ENTITY": {
                     "\u73a9\u5bb6": 0
                 }
             }, 
             "variable_length_dict": {
+                "i": 0, 
+                "\u603b\u6280\u80fd": 10, 
+                "\u603b\u6280\u80fd\u968f\u673a\u6c60": 0, 
                 "\u6280\u80fd\u7c7b\u578b": 0, 
-                "\u73a9\u5bb6": 0
+                "\u7269\u54c1\u7c7b\u578b\u7ec4": 10, 
+                "\u73a9\u5bb6": 0, 
+                "\u968f\u673a\u503c": 0, 
+                "\u968f\u673a\u7ed3\u679c": 0
             }
         }, 
         "418836499": {
@@ -51,15 +70,23 @@
         }, 
         "638214157": {
             "variable_dict": {
+                "ABILITY_NAME": {
+                    "\u62bd\u53d6\u7684\u6280\u80fd\u7c7b\u578b": 0
+                }, 
+                "INTEGER": {
+                    "i": 0
+                }, 
                 "STRING": {
-                    "\u6280\u80fd\u7c7b\u578b": ""
+                    "\u6280\u80fd\u540d\u79f0": ""
                 }, 
                 "UNIT_ENTITY": {
                     "\u73a9\u5bb6": 0
                 }
             }, 
             "variable_length_dict": {
-                "\u6280\u80fd\u7c7b\u578b": 0, 
+                "i": 0, 
+                "\u6280\u80fd\u540d\u79f0": 0, 
+                "\u62bd\u53d6\u7684\u6280\u80fd\u7c7b\u578b": 0, 
                 "\u73a9\u5bb6": 0
             }
         }, 
@@ -154,6 +181,56 @@
                 "\u751f\u6210\u8868": 0
             }
         }, 
+        "1621377047": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "\u662f\u5426\u5df2\u5728\u62fe\u53d6\u8303\u56f4\u5185": false
+                }, 
+                "ITEM_ENTITY": {
+                    "\u6389\u843d\u7269": 0
+                }, 
+                "ITEM_NAME": {
+                    "\u7269\u54c1\u7c7b\u578b": 0
+                }, 
+                "MOVER_ENTITY": {
+                    "\u8ffd\u8e2a\u8fd0\u52a8\u5668": 0
+                }, 
+                "POINT": {
+                    "\u7269\u54c1\u6240\u5728\u70b9": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "\u904d\u5386\u7269\u54c1\u6240\u5728\u70b9": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "ROUND_AREA": {
+                    "\u62fe\u53d6\u8303\u56f4": 0
+                }, 
+                "STRING": {
+                    "\u8303\u56f4\u6807\u7b7e": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "\u62fe\u53d6\u8303\u56f4": 0, 
+                "\u6389\u843d\u7269": 0, 
+                "\u662f\u5426\u5df2\u5728\u62fe\u53d6\u8303\u56f4\u5185": 0, 
+                "\u7269\u54c1\u6240\u5728\u70b9": 0, 
+                "\u7269\u54c1\u7c7b\u578b": 0, 
+                "\u8303\u56f4\u6807\u7b7e": 0, 
+                "\u8ffd\u8e2a\u8fd0\u52a8\u5668": 0, 
+                "\u904d\u5386\u7269\u54c1\u6240\u5728\u70b9": 0
+            }
+        }, 
         "1660145721": {
             "variable_dict": {
                 "ANGLE": {
@@ -168,6 +245,20 @@
                 "X": 0, 
                 "Y": 0, 
                 "angle": 0
+            }
+        }, 
+        "1706897433": {
+            "variable_dict": {
+                "ITEM_NAME": {
+                    "\u7269\u54c1\u7c7b\u578b": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "\u5355\u4f4d": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u5355\u4f4d": 0, 
+                "\u7269\u54c1\u7c7b\u578b": 0
             }
         }, 
         "1978912823": {

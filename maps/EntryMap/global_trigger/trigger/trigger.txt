@@ -36,8 +36,7 @@
         }, 
         {
             "children": [
-                71921666, 
-                209600532
+                71921666
             ], 
             "key": "0Pb9Hr2yEe6iMQD-deHnHp", 
             "name": "\u6e38\u620f\u8fdb\u7a0b", 
@@ -48,7 +47,8 @@
             "children": [
                 957399046, 
                 867500043, 
-                495222805
+                495222805, 
+                209600532
             ], 
             "key": "IP6ksL26Ee6IggD-deHnHo", 
             "name": "\u6309\u94ae\u4e8b\u4ef6", 
@@ -106,13 +106,6 @@
         }, 
         {
             "children": null, 
-            "key": 209600532, 
-            "name": "ESC\u4e8b\u4ef6", 
-            "parent": "0Pb9Hr2yEe6iMQD-deHnHp", 
-            "type": "trigger"
-        }, 
-        {
-            "children": null, 
             "key": 957399046, 
             "name": "\u70b9\u51fb\u5f00\u59cb\u6e38\u620f", 
             "parent": "IP6ksL26Ee6IggD-deHnHo", 
@@ -129,6 +122,13 @@
             "children": null, 
             "key": 495222805, 
             "name": "\u8fd4\u56de\u6e38\u620f", 
+            "parent": "IP6ksL26Ee6IggD-deHnHo", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 209600532, 
+            "name": "ESC\u4e8b\u4ef6", 
             "parent": "IP6ksL26Ee6IggD-deHnHo", 
             "type": "trigger"
         }

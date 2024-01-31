@@ -108,49 +108,6 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "INSERT_TABLE_VALUE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100011, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100006, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100077, 
-                                            "args_list": [], 
-                                            "sub_type": "PROJECTILE_SELF"
-                                        }
-                                    ], 
-                                    "sub_type": "PROJECTILE_OWNER"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u6cd5\u9635"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_TABLE_KV"
-                        }, 
-                        {
-                            "arg_type": 100077, 
-                            "args_list": [], 
-                            "sub_type": "PROJECTILE_SELF"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 6209085460024, 
-                    "enable": true, 
-                    "op_arg": [
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false
-                    ]
-                }, 
-                {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
                         {
@@ -918,7 +875,7 @@
                                                                         {
                                                                             "arg_type": 100046, 
                                                                             "args_list": [
-                                                                                134227805
+                                                                                134280683
                                                                             ], 
                                                                             "sub_type": 1
                                                                         }
@@ -1142,131 +1099,6 @@
                         true, 
                         false
                     ]
-                }, 
-                {
-                    "action_type": "ORDERED_TRAVERSE_TABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100011, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100006, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100077, 
-                                            "args_list": [], 
-                                            "sub_type": "PROJECTILE_SELF"
-                                        }
-                                    ], 
-                                    "sub_type": "PROJECTILE_OWNER"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u6cd5\u9635"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_TABLE_KV"
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "IF_THEN_ELSE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100021, 
-                                            "args_list": [
-                                                {
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100077, 
-                                                            "args_list": [], 
-                                                            "sub_type": "ITER_PROJECTILE_ENTITY_TABLE_VAR"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100035, 
-                                                            "args_list": [
-                                                                "=="
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100077, 
-                                                            "args_list": [], 
-                                                            "sub_type": "PROJECTILE_SELF"
-                                                        }
-                                                    ], 
-                                                    "condition_type": "PROJECTILE_COMPARE", 
-                                                    "element_id": 18507571210003, 
-                                                    "enable": true
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100022, 
-                                            "args_list": [
-                                                {
-                                                    "action_type": "REMOVE_TABLE_VALUE_N", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100011, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100077, 
-                                                                            "args_list": [], 
-                                                                            "sub_type": "PROJECTILE_SELF"
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": "PROJECTILE_OWNER"
-                                                                }, 
-                                                                {
-                                                                    "arg_type": 100003, 
-                                                                    "args_list": [
-                                                                        "\u6cd5\u9635"
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }
-                                                            ], 
-                                                            "sub_type": "GET_TABLE_KV"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100002, 
-                                                            "args_list": [], 
-                                                            "sub_type": "ITER_TABLE_KEY_INT"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 18507571210004, 
-                                                    "enable": true
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100022, 
-                                            "args_list": [], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 18507571210025, 
-                                    "enable": true, 
-                                    "fake_op": []
-                                }
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 18507571210005, 
-                    "enable": true
                 }, 
                 {
                     "action_type": "DELETE_UNIT", 

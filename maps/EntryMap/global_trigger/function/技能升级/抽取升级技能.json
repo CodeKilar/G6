@@ -4,12 +4,309 @@
             "action_type": "SET_VARIABLE", 
             "args_list": [
                 {
+                    "arg_type": 100201, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "RANDOM_POOL", 
+                                "\u603b\u6280\u80fd\u968f\u673a\u6c60", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 3
+                }, 
+                {
+                    "arg_type": 100201, 
+                    "args_list": [], 
+                    "sub_type": "CREATE_RANDOM_POOL"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1069531158000014, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_RANDOM_POOL_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100201, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "RANDOM_POOL", 
+                                "\u603b\u6280\u80fd\u968f\u673a\u6c60", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 3
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1069531158000087, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_RANDOM_POOL_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100201, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "RANDOM_POOL", 
+                                "\u603b\u6280\u80fd\u968f\u673a\u6c60", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 3
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1069531158000099, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_RANDOM_POOL_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100201, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "RANDOM_POOL", 
+                                "\u603b\u6280\u80fd\u968f\u673a\u6c60", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 3
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        2
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 167858188000174, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ABILITY_NAME", 
+                                "\u603b\u6280\u80fd", 
+                                "local"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100039, 
+                    "args_list": [
+                        134238410
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 167858188000030, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ABILITY_NAME", 
+                                "\u603b\u6280\u80fd", 
+                                "local"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100039, 
+                    "args_list": [
+                        134254759
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 167858188000039, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ABILITY_NAME", 
+                                "\u603b\u6280\u80fd", 
+                                "local"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100039, 
+                    "args_list": [
+                        134234270
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 167858188000048, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
                     "arg_type": 100030, 
                     "args_list": [
                         {
                             "__tuple__": true, 
                             "items": [
-                                "STRING", 
+                                "INTEGER", 
+                                "\u968f\u673a\u503c", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100201, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "RANDOM_POOL", 
+                                        "\u603b\u6280\u80fd\u968f\u673a\u6c60", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 3
+                        }
+                    ], 
+                    "op_arg": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ], 
+                    "sub_type": "GET_BITRARY_RANDOM_POOL_VALUE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 167858188000185, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ABILITY_NAME", 
                                 "\u6280\u80fd\u7c7b\u578b", 
                                 "local"
                             ]
@@ -18,33 +315,54 @@
                     "sub_type": 1
                 }, 
                 {
-                    "arg_type": 100003, 
+                    "arg_type": 100039, 
                     "args_list": [
-                        "\u7bad\u65e0\u865a\u53d1"
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ABILITY_NAME", 
+                                "\u603b\u6280\u80fd", 
+                                "local"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u968f\u673a\u503c", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
                     ], 
-                    "sub_type": 1
+                    "sub_type": "VARIABLE"
                 }
             ], 
             "bp": false, 
-            "element_id": 167858188000009, 
+            "element_id": 167858188000194, 
             "enable": true
         }, 
         {
             "action_type": 400342, 
             "args_list": [
                 {
-                    "arg_type": 100003, 
+                    "arg_type": 100039, 
                     "args_list": [
                         {
                             "__tuple__": true, 
                             "items": [
-                                "STRING", 
+                                "ABILITY_NAME", 
                                 "\u6280\u80fd\u7c7b\u578b", 
                                 "local"
                             ]
                         }
                     ], 
-                    "sub_type": 2
+                    "sub_type": "VARIABLE"
                 }
             ], 
             "bp": false, 
@@ -58,7 +376,7 @@
     "event": [], 
     "func_category": "t_function", 
     "func_comment": "", 
-    "func_des": "\u51fd\u6570\u63cf\u8ff0{\u73a9\u5bb6}", 
+    "func_des": "{\u73a9\u5bb6}\u62bd\u53d6\u5347\u7ea7\u6280\u80fd", 
     "func_id": "d064398fbddf11ee94a900ff75e1e71e", 
     "func_name": "\u62bd\u53d6\u5347\u7ea7\u6280\u80fd", 
     "func_param_list": [
@@ -76,7 +394,7 @@
             "__tuple__": true, 
             "items": [
                 "\u6280\u80fd\u7c7b\u578b", 
-                "STRING"
+                "ABILITY_NAME"
             ]
         }
     ], 

@@ -12,6 +12,9 @@
                     "i": 1, 
                     "\u7bad\u7684\u6570\u91cf": 1
                 }, 
+                "MOVER_ENTITY": {
+                    "\u76f4\u7ebf\u8fd0\u52a8\u5668": 0
+                }, 
                 "PROJECTILE_ENTITY": {
                     "Projectile": 0, 
                     "\u5f39\u9053": 0
@@ -21,6 +24,7 @@
                 "Projectile": 0, 
                 "i": 0, 
                 "\u5f39\u9053": 0, 
+                "\u76f4\u7ebf\u8fd0\u52a8\u5668": 0, 
                 "\u7b2c\u4e00\u6b21": 0, 
                 "\u7bad\u7684\u6570\u91cf": 0, 
                 "\u89d2\u5ea6": 0
@@ -500,8 +504,22 @@
                                                     "enable": true
                                                 }, 
                                                 {
-                                                    "action_type": "CREATE_STRAIGHT_MOVER", 
+                                                    "action_type": "CREATE_STRAIGHT_MOVER_SAVE", 
                                                     "args_list": [
+                                                        {
+                                                            "arg_type": 100263, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "MOVER_ENTITY", 
+                                                                        "\u76f4\u7ebf\u8fd0\u52a8\u5668", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }, 
                                                         {
                                                             "arg_type": 100077, 
                                                             "args_list": [
@@ -555,40 +573,7 @@
                                                         }, 
                                                         {
                                                             "arg_type": 100022, 
-                                                            "args_list": [
-                                                                {
-                                                                    "action_type": "PROJECTILE_DELETE", 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100077, 
-                                                                            "args_list": [
-                                                                                [
-                                                                                    "PROJECTILE_ENTITY", 
-                                                                                    "\u5f39\u9053", 
-                                                                                    "local"
-                                                                                ], 
-                                                                                null
-                                                                            ], 
-                                                                            "sub_type": "VARIABLE"
-                                                                        }
-                                                                    ], 
-                                                                    "bp": false, 
-                                                                    "element_id": 550764546420312, 
-                                                                    "enable": true, 
-                                                                    "op_arg": [
-                                                                        {
-                                                                            "arg_type": 100001, 
-                                                                            "args_list": [
-                                                                                true
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }
-                                                                    ], 
-                                                                    "op_arg_enable": [
-                                                                        false
-                                                                    ]
-                                                                }
-                                                            ], 
+                                                            "args_list": [], 
                                                             "sub_type": 1
                                                         }, 
                                                         {
@@ -644,7 +629,7 @@
                                                                                         }
                                                                                     ], 
                                                                                     "condition_type": "UNIT_TYPE_COMPARE", 
-                                                                                    "element_id": 550764546420313, 
+                                                                                    "element_id": 550764546420345, 
                                                                                     "enable": true
                                                                                 }
                                                                             ], 
@@ -705,7 +690,7 @@
                                                                                         }
                                                                                     ], 
                                                                                     "bp": false, 
-                                                                                    "element_id": 550764546420314, 
+                                                                                    "element_id": 550764546420346, 
                                                                                     "enable": true, 
                                                                                     "op_arg": [
                                                                                         {
@@ -784,7 +769,7 @@
                                                                                         }
                                                                                     ], 
                                                                                     "bp": false, 
-                                                                                    "element_id": 550764546420315, 
+                                                                                    "element_id": 550764546420347, 
                                                                                     "enable": true, 
                                                                                     "op_arg": [
                                                                                         null, 
@@ -806,25 +791,38 @@
                                                                                     ]
                                                                                 }, 
                                                                                 {
-                                                                                    "action_type": "PROJECTILE_DELETE", 
+                                                                                    "action_type": "REMOVE_MOVER", 
                                                                                     "args_list": [
                                                                                         {
-                                                                                            "arg_type": 100077, 
+                                                                                            "arg_type": 100263, 
                                                                                             "args_list": [
                                                                                                 {
                                                                                                     "__tuple__": true, 
                                                                                                     "items": [
-                                                                                                        "PROJECTILE_ENTITY", 
-                                                                                                        "\u5f39\u9053", 
+                                                                                                        "MOVER_ENTITY", 
+                                                                                                        "\u76f4\u7ebf\u8fd0\u52a8\u5668", 
                                                                                                         "local"
                                                                                                     ]
                                                                                                 }
                                                                                             ], 
-                                                                                            "sub_type": "VARIABLE"
+                                                                                            "sub_type": 6
                                                                                         }
                                                                                     ], 
                                                                                     "bp": false, 
-                                                                                    "element_id": 550764546420325, 
+                                                                                    "element_id": 550764546420349, 
+                                                                                    "enable": true
+                                                                                }, 
+                                                                                {
+                                                                                    "action_type": "PROJECTILE_DELETE", 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100077, 
+                                                                                            "args_list": [], 
+                                                                                            "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                                                        }
+                                                                                    ], 
+                                                                                    "bp": false, 
+                                                                                    "element_id": 550764546420363, 
                                                                                     "enable": true, 
                                                                                     "op_arg": [
                                                                                         {
@@ -849,7 +847,7 @@
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
-                                                                    "element_id": 550764546420316, 
+                                                                    "element_id": 550764546420350, 
                                                                     "enable": true, 
                                                                     "fake_op": []
                                                                 }
@@ -861,7 +859,7 @@
                                                     "element_id": 550764546420213, 
                                                     "enable": true, 
                                                     "fake_op": [
-                                                        9
+                                                        10
                                                     ], 
                                                     "local_var": {
                                                         "__tuple__": true, 

@@ -57,7 +57,7 @@
                         {
                             "children": [], 
                             "event_list": [], 
-                            "name": "skill_1_name", 
+                            "name": "skill_name_1", 
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
@@ -94,7 +94,7 @@
                         {
                             "children": [], 
                             "event_list": [], 
-                            "name": "skill_1_desc", 
+                            "name": "skill_desc_1", 
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
@@ -131,7 +131,7 @@
                         {
                             "children": [], 
                             "event_list": [], 
-                            "name": "skill_1_level", 
+                            "name": "skill_level_1", 
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
@@ -169,7 +169,7 @@
                         }
                     ], 
                     "image": 120505, 
-                    "name": "skill_1_icon", 
+                    "name": "skill_bg_1", 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
@@ -195,6 +195,314 @@
                     }, 
                     "type": 4, 
                     "uid": "ca4c89fd-f72b-4aa3-ae15-d2e1318e44a5", 
+                    "visible": false
+                }, 
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            54.0, 
+                            17.0, 
+                            54.0, 
+                            17.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_name_2", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    191.7642, 
+                                    138.3731
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.8806, 
+                                    67.1714
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    135.0, 
+                                    39.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_name\n", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "4ecff2df-a67f-4b7a-a0d4-229b4a8fc904"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_desc_2", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    221.0, 
+                                    82.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    39.0459, 
+                                    39.8058
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    196.0, 
+                                    73.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_desc", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "5ce2d5d8-83f9-4be0-8589-ae3daf7e41cf"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_level_2", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    385.0001, 
+                                    104.0001
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    68.0212, 
+                                    50.4855
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_level", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "da022e32-c561-4277-aa64-9ab330f8b217"
+                        }
+                    ], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "skill_1_upgrade", 
+                            "sound_id": null, 
+                            "type": 30
+                        }
+                    ], 
+                    "image": 120505, 
+                    "name": "skill_bg_2", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            358.0, 
+                            363.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            48.3784, 
+                            43.3174
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            566.0, 
+                            206.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "77365142-70f7-41f9-a754-5e4b0d703a7a", 
+                    "visible": false
+                }, 
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            54.0, 
+                            17.0, 
+                            54.0, 
+                            17.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_name_3", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    190.7642, 
+                                    138.3731
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.7039, 
+                                    67.1714
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    135.0, 
+                                    39.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_name\n", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "3b3b266b-dca4-4a37-9ebe-5b69dd29c7e5"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_desc_3", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    221.0, 
+                                    82.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    39.0459, 
+                                    39.8058
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    196.0, 
+                                    73.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_desc", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "cdc34a0c-abb4-4e0c-8ad0-cc97129e84ae"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "skill_level_3", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    385.0001, 
+                                    104.0001
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    68.0212, 
+                                    50.4855
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "skill_level", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "184750d4-0291-4c66-9936-c9dd6a2977d1"
+                        }
+                    ], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "skill_1_upgrade", 
+                            "sound_id": null, 
+                            "type": 30
+                        }
+                    ], 
+                    "image": 120505, 
+                    "name": "skill_bg_3", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            370.0, 
+                            103.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            12.2912
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            566.0, 
+                            206.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "721dfcc4-7502-4a4f-aea9-06b1d4551151", 
                     "visible": false
                 }
             ], 

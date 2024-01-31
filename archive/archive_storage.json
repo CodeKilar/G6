@@ -1,12 +1,1 @@
-{
-    "paipai": {
-        "role_id": 1, 
-        "archive": {
-            "1": {
-                "data_type": 2, 
-                "data_value": 10
-            }
-        }, 
-        "platform_prop": {}
-    }
-}
+{}

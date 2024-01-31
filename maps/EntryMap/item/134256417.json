@@ -12,140 +12,44 @@
         }
     }, 
     "trigger_dict": {
-        "208171011": {
-            "action": [
-                {
-                    "action_type": "ADD_CUR_HP", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                100.0
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 208171011000006, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "REMOVE_ITEM", 
-                    "args_list": [
-                        {
-                            "arg_type": 100031, 
-                            "args_list": [], 
-                            "sub_type": "TRIGGER_ITEM_ENTITY"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 208171011000003, 
-                    "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": false, 
-            "event": [
-                {
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100044, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100023, 
-                            "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "ROUND_AREA", 
-                                        "\u62fe\u53d6\u8303\u56f4", 
-                                        "local"
-                                    ]
-                                }
-                            ], 
-                            "sub_type": 2
-                        }
-                    ], 
-                    "element_id": 208171011000001, 
-                    "enable": true, 
-                    "event_type": "UNIT_REGION_EVENT"
-                }
-            ], 
-            "group_id": 134256417, 
-            "is_conf": true, 
-            "p_trigger_id": 1198026754, 
-            "trigger_id": 208171011, 
-            "trigger_name": "\u5b50\u89e6\u53d1\u5668", 
-            "valid": true
-        }, 
         "1198026754": {
             "action": [
                 {
-                    "action_type": "SET_VARIABLE", 
+                    "action_type": "CALL_TRIGGER_FUNC", 
                     "args_list": [
                         {
-                            "arg_type": 100030, 
+                            "arg_type": 100177, 
                             "args_list": [
                                 {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "ROUND_AREA", 
-                                        "\u62fe\u53d6\u8303\u56f4", 
-                                        "local"
-                                    ]
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100023, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100004, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100031, 
-                                            "args_list": [], 
-                                            "sub_type": "TRIGGER_ITEM_ENTITY"
-                                        }
-                                    ], 
-                                    "sub_type": "ITEM_ENTITY_POINT"
+                                    "arg_type": 100031, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_ITEM_ENTITY"
                                 }, 
                                 {
-                                    "arg_type": 100000, 
+                                    "arg_type": 100003, 
                                     "args_list": [
-                                        200.0
+                                        "\u8840\u836f\u62fe\u53d6\u8303\u56f4"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100032, 
+                                    "args_list": [
+                                        134256417
                                     ], 
                                     "sub_type": 1
                                 }
                             ], 
-                            "sub_type": "CREATE_CIR_AREA"
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "9f0430c0c05111ee868800ff75e1e71e"
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1198026754000002, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1634004994000006, 
                     "enable": true
-                }, 
-                208171011
+                }
             ], 
             "call_enabled": true, 
             "condition": [], 
@@ -166,13 +70,6 @@
         }
     }, 
     "trigger_group_info": [
-        {
-            "__tuple__": true, 
-            "items": [
-                208171011, 
-                "\u5b50\u89e6\u53d1\u5668"
-            ]
-        }, 
         {
             "_trigger_group_": true, 
             "group": [

@@ -8,28 +8,6 @@
             "enable": true
         }, 
         {
-            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-            "args_list": [
-                {
-                    "arg_type": 100175, 
-                    "args_list": [
-                        3
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100003, 
-                    "args_list": [
-                        "\u5347\u7ea7"
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 71921666000051, 
-            "enable": true
-        }, 
-        {
             "action_type": "SET_UI_COMP_VISIBLE", 
             "args_list": [
                 {
@@ -66,10 +44,8 @@
                     "args_list": [
                         {
                             "arg_type": 100006, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
+                            "args_list": [], 
+                            "sub_type": "GET_UNIT_FROM_EVENT"
                         }
                     ], 
                     "op_arg": [], 
