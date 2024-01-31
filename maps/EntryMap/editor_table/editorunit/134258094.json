@@ -121,10 +121,7 @@
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "hero_ability_list": [], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
     "hp_max": 1000.0, 

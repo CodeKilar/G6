@@ -57,6 +57,28 @@
                 {
                     "arg_type": 100032, 
                     "args_list": [
+                        134245010
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1018089475000024, 
+            "enable": true
+        }, 
+        {
+            "action_type": "UNIT_ADD_ITEM", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100032, 
+                    "args_list": [
                         134230617
                     ], 
                     "sub_type": 1
